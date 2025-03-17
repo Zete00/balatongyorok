@@ -1,0 +1,65 @@
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: url(panorama.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head_img {
+    max-width: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header_img {
+    margin-inline-start: 750px;
+    margin-inline-end: 1000px;
+}
+
+.header {
+    min-width: 650px;
+    max-width: 1000px;
+}
+
+.box {
+    width: 450px;
+    background-color: #5B9CEA;
+    display: inline-block;
+    padding: 20px;
+    margin-right: auto;
+}
+
+.box:first-child {
+    margin-left: 0px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B0D1F1;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
